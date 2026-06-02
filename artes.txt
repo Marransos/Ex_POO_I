@@ -1,0 +1,5 @@
+1&Pintura&O Grito&Edvard Munch&1893&Óleo sobre tela&1.2&7000
+2&Escultura&David&Michelangelo&1504&Mármore&5570.0&8000
+3&Pintura&Noite Estrelada&Van Gogh&1889&Óleo sobre tela&0.74&6000
+4&Fotografia&Afghan Girl&Steve McCurry&1984&3000x2000&Analógica&10000
+5&Fotografia&Moon and Half Dome&Ansel Adams&1960&2048x2048&Analógica&5000
