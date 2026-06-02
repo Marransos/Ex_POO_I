@@ -1,16 +1,41 @@
 
-package exercício11;
 
-public class Fotografia extends ObraDeArte {
-	public String resolucao;
-	public String tipoCamera;
-	public Fotografia(int id,String nomeArte,String titulo,String autor, int ano,String resolucao,String tipoCamera,double preco){
-		super(id,nomeArte,titulo,autor,ano,preco);
-		this.resolucao = resolucao;
-		this.tipoCamera = tipoCamera;
-	}
-	@Override
-	public String toString(){
-		return "Id: "+id+" Nome da Arte: "+nomeArte+" Título: "+titulo+" Autor: "+autor+" Ano: "+ano+" Resolução: "+resolucao+" Tipo de Camera: "+tipoCamera+" Preço: "+preco;
-	}	
+public class Fotografia extends Arte {
+    
+    private String resolucao, tipoCamera;
+    private float preco;
+
+    public Fotografia(int id, String nomeArte, String titulo, String autor, int ano, String resolucao, String tipoCamera, float preco) {
+        super(id, titulo, autor, ano);
+        this.resolucao = resolucao;
+        this.tipoCamera = tipoCamera;
+        this.preco = preco;
+    }
+
+    public String getResolucao() {
+        return resolucao;
+    }
+
+    public String getTipoCamera() {
+        return tipoCamera;
+    }
+
+    public float getPreco() {
+        return preco;
+    }
+
+    public void setPreco(float preco) {
+        this.preco = preco;
+    }
+
+    @Override
+    public String toString() {
+        return "Fotografia [resolucao=" + resolucao + ", tipoCamera=" + tipoCamera + ", preco=" + preco + ", getId()="
+                + getId() + ", getAno()=" + getAno() + ", getTitulo()=" + getTitulo() + ", getAutor()=" + getAutor()
+                + "]";
+    }
+
+    
+    
+
 }
